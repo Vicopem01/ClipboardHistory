@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0446E4262CFD2E4F00E90861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446E40C2CFD2E4E00E90861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0446E4132CFD2E4E00E90861;
+			remoteInfo = ClipboardHistory;
+		};
+		0446E4302CFD2E4F00E90861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446E40C2CFD2E4E00E90861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0446E4132CFD2E4E00E90861;
+			remoteInfo = ClipboardHistory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0446E4142CFD2E4E00E90861 /* ClipboardHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446E4252CFD2E4F00E90861 /* ClipboardHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446E42F2CFD2E4F00E90861 /* ClipboardHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0446E4162CFD2E4E00E90861 /* ClipboardHistory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClipboardHistory;
+			sourceTree = "<group>";
+		};
+		0446E4282CFD2E4F00E90861 /* ClipboardHistoryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClipboardHistoryTests;
+			sourceTree = "<group>";
+		};
+		0446E4322CFD2E4F00E90861 /* ClipboardHistoryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClipboardHistoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0446E4112CFD2E4E00E90861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E4222CFD2E4F00E90861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E42C2CFD2E4F00E90861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0446E40B2CFD2E4E00E90861 = {
+			isa = PBXGroup;
+			children = (
+				0446E4162CFD2E4E00E90861 /* ClipboardHistory */,
+				0446E4282CFD2E4F00E90861 /* ClipboardHistoryTests */,
+				0446E4322CFD2E4F00E90861 /* ClipboardHistoryUITests */,
+				0446E4152CFD2E4E00E90861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0446E4152CFD2E4E00E90861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0446E4142CFD2E4E00E90861 /* ClipboardHistory.app */,
+				0446E4252CFD2E4F00E90861 /* ClipboardHistoryTests.xctest */,
+				0446E42F2CFD2E4F00E90861 /* ClipboardHistoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0446E4132CFD2E4E00E90861 /* ClipboardHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446E4392CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistory" */;
+			buildPhases = (
+				0446E4102CFD2E4E00E90861 /* Sources */,
+				0446E4112CFD2E4E00E90861 /* Frameworks */,
+				0446E4122CFD2E4E00E90861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0446E4162CFD2E4E00E90861 /* ClipboardHistory */,
+			);
+			name = ClipboardHistory;
+			packageProductDependencies = (
+			);
+			productName = ClipboardHistory;
+			productReference = 0446E4142CFD2E4E00E90861 /* ClipboardHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0446E4242CFD2E4F00E90861 /* ClipboardHistoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446E43C2CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistoryTests" */;
+			buildPhases = (
+				0446E4212CFD2E4F00E90861 /* Sources */,
+				0446E4222CFD2E4F00E90861 /* Frameworks */,
+				0446E4232CFD2E4F00E90861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0446E4272CFD2E4F00E90861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0446E4282CFD2E4F00E90861 /* ClipboardHistoryTests */,
+			);
+			name = ClipboardHistoryTests;
+			packageProductDependencies = (
+			);
+			productName = ClipboardHistoryTests;
+			productReference = 0446E4252CFD2E4F00E90861 /* ClipboardHistoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0446E42E2CFD2E4F00E90861 /* ClipboardHistoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446E43F2CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistoryUITests" */;
+			buildPhases = (
+				0446E42B2CFD2E4F00E90861 /* Sources */,
+				0446E42C2CFD2E4F00E90861 /* Frameworks */,
+				0446E42D2CFD2E4F00E90861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0446E4312CFD2E4F00E90861 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0446E4322CFD2E4F00E90861 /* ClipboardHistoryUITests */,
+			);
+			name = ClipboardHistoryUITests;
+			packageProductDependencies = (
+			);
+			productName = ClipboardHistoryUITests;
+			productReference = 0446E42F2CFD2E4F00E90861 /* ClipboardHistoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0446E40C2CFD2E4E00E90861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0446E4132CFD2E4E00E90861 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0446E4242CFD2E4F00E90861 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0446E4132CFD2E4E00E90861;
+					};
+					0446E42E2CFD2E4F00E90861 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0446E4132CFD2E4E00E90861;
+					};
+				};
+			};
+			buildConfigurationList = 0446E40F2CFD2E4E00E90861 /* Build configuration list for PBXProject "ClipboardHistory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0446E40B2CFD2E4E00E90861;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0446E4152CFD2E4E00E90861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0446E4132CFD2E4E00E90861 /* ClipboardHistory */,
+				0446E4242CFD2E4F00E90861 /* ClipboardHistoryTests */,
+				0446E42E2CFD2E4F00E90861 /* ClipboardHistoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0446E4122CFD2E4E00E90861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E4232CFD2E4F00E90861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E42D2CFD2E4F00E90861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0446E4102CFD2E4E00E90861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E4212CFD2E4F00E90861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446E42B2CFD2E4F00E90861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0446E4272CFD2E4F00E90861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0446E4132CFD2E4E00E90861 /* ClipboardHistory */;
+			targetProxy = 0446E4262CFD2E4F00E90861 /* PBXContainerItemProxy */;
+		};
+		0446E4312CFD2E4F00E90861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0446E4132CFD2E4E00E90861 /* ClipboardHistory */;
+			targetProxy = 0446E4302CFD2E4F00E90861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0446E4372CFD2E4F00E90861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0446E4382CFD2E4F00E90861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0446E43A2CFD2E4F00E90861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipboardHistory/ClipboardHistory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0446E43B2CFD2E4F00E90861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipboardHistory/ClipboardHistory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0446E43D2CFD2E4F00E90861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardHistory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardHistory";
+			};
+			name = Debug;
+		};
+		0446E43E2CFD2E4F00E90861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardHistory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardHistory";
+			};
+			name = Release;
+		};
+		0446E4402CFD2E4F00E90861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ClipboardHistory;
+			};
+			name = Debug;
+		};
+		0446E4412CFD2E4F00E90861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMY9WYRH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicopem.ClipboardHistoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ClipboardHistory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0446E40F2CFD2E4E00E90861 /* Build configuration list for PBXProject "ClipboardHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446E4372CFD2E4F00E90861 /* Debug */,
+				0446E4382CFD2E4F00E90861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446E4392CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446E43A2CFD2E4F00E90861 /* Debug */,
+				0446E43B2CFD2E4F00E90861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446E43C2CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446E43D2CFD2E4F00E90861 /* Debug */,
+				0446E43E2CFD2E4F00E90861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446E43F2CFD2E4F00E90861 /* Build configuration list for PBXNativeTarget "ClipboardHistoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446E4402CFD2E4F00E90861 /* Debug */,
+				0446E4412CFD2E4F00E90861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0446E40C2CFD2E4E00E90861 /* Project object */;
+}
