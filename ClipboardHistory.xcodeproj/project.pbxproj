@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0446E4442CFD2ED700E90861 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0446E4432CFD2ED700E90861 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0446E4262CFD2E4F00E90861 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0446E4142CFD2E4E00E90861 /* ClipboardHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0446E4252CFD2E4F00E90861 /* ClipboardHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0446E42F2CFD2E4F00E90861 /* ClipboardHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446E4432CFD2ED700E90861 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0446E4442CFD2ED700E90861 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				0446E4162CFD2E4E00E90861 /* ClipboardHistory */,
 				0446E4282CFD2E4F00E90861 /* ClipboardHistoryTests */,
 				0446E4322CFD2E4F00E90861 /* ClipboardHistoryUITests */,
+				0446E4422CFD2ED700E90861 /* Frameworks */,
 				0446E4152CFD2E4E00E90861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				0446E42F2CFD2E4F00E90861 /* ClipboardHistoryUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0446E4422CFD2ED700E90861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0446E4432CFD2ED700E90861 /* Carbon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
