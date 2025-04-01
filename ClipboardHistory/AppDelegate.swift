@@ -35,7 +35,7 @@ class ClipboardManager {
             clipboardHistory = Array(clipboardHistory.prefix(maxHistoryItems))
         }
         
-        print("Clipboard History: \(clipboardHistory)")
+//        print("Clipboard History: \(clipboardHistory)")
     }
     
     // Get current clipboard history
